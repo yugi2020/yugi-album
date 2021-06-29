@@ -54,16 +54,17 @@ ul{
   /* Slide the second panel in */
   input[type=checkbox]:checked ~ div.curtain__panel--right {
       transform: translateX(0);
+      /*left:16%;*/
   }   
   .curtain__panel {
     background: orange;
-    width: 35%; /* Each panel takes up half the container */
-    height: 100vh; /* Used for demo purposes */
+    width: 35.5%; /* Each panel takes up half the container */
+    height: 91vh; /* Used for demo purposes */
     float: left; /* Makes sure panels are side-by-side */
     position: relative; /* Needed to define the z-index */
     z-index: 2; /* Places the panels in front of the prize */
     transition: all 1s ease-out; /* Animates the sliding transition */
-    left:13%;
+    left:15%;
     top:9%;
   }
   .curtain__panel--left {
