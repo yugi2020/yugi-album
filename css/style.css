@@ -59,7 +59,7 @@ ul{
   .curtain__panel {
     background: orange;
     width: 35.5%; /* Each panel takes up half the container */
-    height: calc(100vh - 9%); /* Used for demo purposes */
+    height: calc(100vh - 30%); /* Used for demo purposes */
     float: left; /* Makes sure panels are side-by-side */
     position: relative; /* Needed to define the z-index */
     z-index: 2; /* Places the panels in front of the prize */
